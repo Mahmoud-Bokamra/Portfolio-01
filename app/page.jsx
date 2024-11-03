@@ -17,7 +17,7 @@ const Home = () => {
   };
   return (
     <section>
-      <div className="coantiner mx-auto xl:mx-[100px] h-full">
+      <div className="container mx-5  xl:mx-[100px] h-full">
 
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className='text-center xl:text-left order-2 xl:order-none'>
@@ -44,7 +44,7 @@ const Home = () => {
                     />
             </motion.div>
               </span></h1>
-            <p className='max-w-[500px] mb-9 text-white/80 text-justify'>
+            <p className='max-w-[500px] mb-9 text-white/80 text-left md:text-justify'>
             RF Telecommunication engineer with experience in Python and Oracle Data Integrator, specializing in data-driven applications and visualizations with Power BI. I bring a strong technical foundation and a commitment to building impactful solutions.
             </p>
             <div className='flex flex-col xl:flex-row items-center gap-8'>
